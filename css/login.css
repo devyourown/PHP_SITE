@@ -1,0 +1,28 @@
+body {
+  height: 100%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  align-items: center;
+  background-color: grey;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 800px;
+  padding: 15px;
+  margin:auto;
+}
+
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+
+}
+
+/*input[type="password"] {
+  margin-bottom: 30px;
+}*/
+
+button {
+  margin-top: 20px;
+}

@@ -1,0 +1,67 @@
+/*테이블 시작*/
+table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    font-size: 18px;
+}
+table.board {
+    border-collapse: collapse;
+    text-align: left;
+    line-height: 1.5;
+}
+
+table.board thead th {
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    color: #369;
+    border-bottom: 3px solid #036;
+}
+
+table.board tbody th {
+    width: 150px;
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+    background: #f3f6f7;
+}
+
+table.board td {
+    width: 250px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    padding: 10px;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+}
+
+td:nth-child(odd) {background-color: #f3f6f7;}
+
+#myInput {
+    margin-top: 2%;
+    background-image: url(/static/img/if_icon-111-search_314689.png);
+    background-position: 6px 5px;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+}
+
+table.board td:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+.box_btn {
+                margin-left: auto;
+                margin-right: auto;
+                text-align:center;
+                padding:32px;
+}
+.table {
+        margin-left: auto;
+        margin-right: auto;
+}
